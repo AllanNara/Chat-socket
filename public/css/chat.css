@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(to bottom, #4361ee, #c742f0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  color: #333333;
+}
+
+.chat-instructions {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.chat-input {
+  margin-left: 20px;
+  background-color: #f2f2f2;
+  color: #333333;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.message-logs {
+  margin-top: 20px;
+  background-color: #9b43ee;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.message {
+  margin-bottom: 10px;
+  background-color: rgb(77, 77, 77);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.user {
+  color: rgb(83, 83, 255);
+  font-weight: bold;
+}
+
+.currentUser {
+  color: rgb(178, 83, 255);
+}
+
+.message-content {
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+}
+
+.message-content:before {
+  content: "> ";
+}
